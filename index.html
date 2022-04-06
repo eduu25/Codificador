@@ -9,22 +9,29 @@
 </head>
 <body>
     
-    <main>
-     <select name="decod">
-      <option value="b64" selected>Base64</option>
-      <option value="cs" selected>César</option>
+    <form id="formzz">
+
+     <select name="decodificador">
+      <option value="Base64">Base64</option>
+      <option value="Cifra de César">César</option>
     </select>
 
     <div class="imput">
-      <input id="Texto" name="Texto" placeholder="Texto" type="text">
+      <input id="Texto" name="texto" placeholder="texto" type="text">
     </div>
     
     <div class="radioImput">
-      <input type="radio"  name="" value="">
+      <input type="radio" id="rad1"  name="" value="">
       <label for="">Codificar</label>
-      <input type="radio"  name="" value="">
+      <input type="radio" id="rad2" name="" value="">
       <label for="">Decodificar</label>
     </div>
-    </main>
+    <div class="but">
+      <button id="btcodificar">Codificar</button>
+      <button id="btdecodificar">Decodificar</button>
+    </div>
+
+    </form>
+    <script src="codificador.js"></script>
 </body>
 </html>
