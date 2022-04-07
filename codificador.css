@@ -1,0 +1,75 @@
+body{
+    margin: 0%;
+    background-color: #e7edea;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formzz{
+    margin-top: 180px;
+    width: 350px;
+    height: 200px;
+    background-color: #bfd4b7;
+    border: black 1px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+select{
+    width: 80px;
+    margin-top: 20px;;
+    outline: none;
+    cursor: pointer;
+}
+.btnNumber{
+    margin-top: 4px;
+}
+#btnN{
+    width: 40px;
+    height: 15px;
+    border-radius: 5px;
+    border: black 1px solid;
+    outline: none;
+}
+.imput{
+    margin-top: 10px;
+}
+.radioImput{
+    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#Texto{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.but{
+    margin-top: 10px;
+}
+
+label{
+    font-family: monospace;
+}
+option{
+    font-family: monospace;
+}
+#btcodificar{
+    cursor: pointer;
+    font-family: monospace ;
+    border-radius: 5px;
+    border: black 1px solid;
+}
+#btdecodificar{
+    cursor: pointer;
+    font-family: monospace ;
+    border-radius: 5px;
+    border: black 1px solid;
+}
