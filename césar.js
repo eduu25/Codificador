@@ -1,5 +1,5 @@
 function cifraCésar(str,num) {
-num = num % 26
+ num = num % 26
  var lowerCaseStr = str.toLowerCase();
  var alfabeto = 'abcdefghijklmnopqrstuvwxyz'.split('');
  var newStr = '';
@@ -21,5 +21,5 @@ num = num % 26
  }
 return newStr
 }
-console.log(cifraCésar("Texte", 5000))
+console.log(cifraCésar("Teste", 5000))
 
